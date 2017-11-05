@@ -1,0 +1,83 @@
+/*todo el contenido ocupa el 100% de la página, sin margen*/
+body{
+	font-family: sans-serif;
+	width: 100%;
+	margin: 0;
+}
+
+.container{
+	-webkit-box-sizing: border-box;
+   	-moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+/*cabecera, ocupa 100% del ancho, tiene separación con el top, alineado al centro*/
+header{
+	width: 100%;
+	margin-top: 1em;
+	padding-bottom: 0.5em;
+	text-align: center;
+	border-bottom: 1px ridge #acb1b4;
+}
+
+/*tamaño del logo en el header*/
+.logo{
+	font-size: 2em;
+}
+
+/*tamaño de contenido central, imagen de fondo*/
+main{
+	height: 36em;
+	width: 100%;
+	background-image: url(../img/twitter.jpg);
+	background-size:100%;
+	background-position-y: -5em; 
+	padding-left: 9em;
+	padding-right: 9em;
+	padding-top: 2em;
+}
+
+.profile{
+	background-color: #FFF;
+	height: 10em;
+	width: 20em;
+	display: inline-block;
+	padding: 1em;
+}
+
+#img{
+	height: 5em;
+	border-radius: 10em;
+}
+
+.nickname{
+	display: inline-block;
+	vertical-align: text-bottom;
+	padding-left: 2em;
+}
+h2{
+	margin:0em;
+}
+h3{
+	color: #b3bcc3;
+	font-weight: lighter;
+	margin-top: 0em;
+}
+
+
+.comment{
+	background-color: #FFF;
+	height: 10em;
+	width: 40em;
+	display: inline-block;
+	float: right;
+	padding: 1em;
+}
+#comment{
+	border:none;
+	border-bottom: 1px solid gray;
+	resize: none;
+	width: 100%;
+
+
+}
