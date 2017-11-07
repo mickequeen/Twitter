@@ -23,11 +23,18 @@
 
 		<div class="comment container">
 			
-			<textarea  id="comment" placeholder="¿Qué está pasando?" 
-			></textarea>
-			<!-- contenedor comentarios -->
-			<div class="container cont"></div>
+			<textarea class="txt" id="comment"  placeholder="¿Qué está pasando?" rows="3"></textarea>
+			<button class="button" id="btn" onclick="add()">
+				Twittear
+			</button>
+			<div class="cnt">
+				<span class="contador"></span>
+			</div>
 		</div>
+		
+		<!-- contenedor comentarios -->
+		<span id= "cont"></span>
+
 	</main>
 
 

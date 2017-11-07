@@ -55,15 +55,16 @@ main{
 	vertical-align: text-bottom;
 	padding-left: 2em;
 }
+
 h2{
 	margin:0em;
 }
+
 h3{
 	color: #b3bcc3;
 	font-weight: lighter;
 	margin-top: 0em;
 }
-
 
 .comment{
 	background-color: #FFF;
@@ -73,11 +74,49 @@ h3{
 	float: right;
 	padding: 1em;
 }
+
 #comment{
 	border:none;
 	border-bottom: 1px solid gray;
 	resize: none;
 	width: 100%;
+	
+}
 
+.button{
+	background-color: #1DA1F2;
+	height: 3.5em;
+	width: 8em;
+	color: #FFF;
+	font-weight: bold;
+	margin-top: 2em;
+}
 
+#cont div{
+	background-color: #FFF;
+	width: 40em;
+	text-align: center;
+	float: right;
+	margin-top: 1em;
+	
+	overflow: auto;
+}
+
+.cnt{
+	float: right;
+	display: inline-block;
+	margin-top: 3em;
+	text-align: center;
+	
+}
+.contador{
+	color: #7b8c98;
+	font-weight: bold;
+}
+.purple{
+	color: purple;
+}
+
+.red{
+	color: red;
 }
